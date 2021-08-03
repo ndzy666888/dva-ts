@@ -1,0 +1,35 @@
+@import '~antd/dist/antd.css';
+
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+.site-side {
+  left: 0;
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
+}
+
+.site-side .site-side-main {
+  padding: 16px;
+}
+
+.site-layout {
+  margin-left: 200px;
+}
+
+.site-background {
+  background-color: #fff;
+}
+
+.site-layout-main {
+  margin: 24px 16px 0;
+  overflow: initial;
+}
+
+.site-layout-main > .layout-main {
+  padding: 24px;
+}
